@@ -24,7 +24,6 @@ deleteBtn.addEventListener('click',function(){
     li.remove();
 })
 
-////////////////////////////
 
 li.textContent = inputValue;
 ulItem.appendChild(li);
