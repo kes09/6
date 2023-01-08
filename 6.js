@@ -34,8 +34,9 @@ inputForm.value = ' ';
 
 });
 
-
-
+allClear.addEventListener('click', function(){
+    ulItem.innerHTML = ' ';
+})
 
 let navigation = document.getElementById('idNavbar');
 let burgerBar = document.getElementById('idBurger');
@@ -43,8 +44,4 @@ let burgerBar = document.getElementById('idBurger');
 
 burgerBar.addEventListener('click',function() {
   navigation.classList.toggle('activeNav');
-})
-
-allClear.addEventListener('click', function(){
-    ulItem.innerHTML = ' ';
 })
