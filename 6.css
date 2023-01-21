@@ -16,7 +16,6 @@ a {
   background-color: rgb(57, 189, 90);
   padding: 30px;
   position: relative;
-  margin-right: 25px;
 }
 .nav-ul {
   display: flex;
@@ -64,4 +63,7 @@ a {
   top: 280px;
   left:500px;
   color: green;
+}
+li{
+  margin-right: 25px;
 }
