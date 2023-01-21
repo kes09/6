@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin:0;
   padding: 0;
+  list-style-type: none;
+  text-decoration: none;
 }
 a {
   text-decoration: none;
@@ -11,13 +13,14 @@ a {
 .header-wraper {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(14, 167, 73);
+  background-color: rgb(57, 189, 90);
   padding: 30px;
   position: relative;
 }
 .nav-ul {
   display: flex;
   list-style: none;
+  justify-content: space-between;
 }
 
 .burgerBar {
@@ -60,4 +63,9 @@ a {
   top: 280px;
   left:500px;
   color: green;
+}
+li{
+  margin-right: 25px;
+  text-align: center;
+
 }
