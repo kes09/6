@@ -64,4 +64,6 @@ a {
   left:500px;
   color: green;
 }
-
+li{
+  margin-right: 25px; 
+}
